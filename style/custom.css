@@ -1,0 +1,66 @@
+body {
+    overflow: hidden;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    border: 1px solid black;
+    background-color: white;
+    top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.nav-link {
+    border: 1px solid white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.nav-link:hover {
+    border: 0.1px solid black;
+}
+
+.main {
+    background-color: bisque;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    z-index: 4;
+}
+
+.py-3 {
+    margin-bottom: 0px !important;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}

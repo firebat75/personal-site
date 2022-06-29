@@ -1,0 +1,1 @@
+new JParticles.Particle('#demo');

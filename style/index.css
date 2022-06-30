@@ -7,18 +7,6 @@
     background-color: rgb(245, 244, 244);
 }
 
-@media only screen and (max-width: 600px) {
-    .main {
-        border: 0.1px solid black;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        width: 90%;
-        padding: 35px;
-        position: relative;
-        background-color: rgb(245, 244, 244);
-    }
-}
-
 #tiles {
     margin: 20px;
     margin-left: auto;
@@ -82,4 +70,16 @@
 
 #buttonrow #contact {
     border: 0.1px solid blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        border: 0.1px solid black;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 90%;
+        padding: 35px;
+        position: relative;
+        background-color: rgb(245, 244, 244);
+    }
 }

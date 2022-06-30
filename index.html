@@ -31,57 +31,60 @@
 
 <body>
     <div id="page-container">
-        <div class="lines black" id="black" style="width: 100%; height: 100%;"></div>
-        <div class="lines red" id="" style="width: 100%; height: 100%;"></div>
-        <div class="lines yellow" id="" style="width: 100%; height: 100%;"></div>
-        <div class="lines blue" id="" style="width: 100%; height: 100%;"></div>
-        <div class="lines misc" id="" style="width: 100%; height: 100%;"></div>
+        <div id="content-wrap>">
+            <div class="lines black" id="black" style="width: 100%; height: 100%;"></div>
+            <div class="lines red" id="" style="width: 100%; height: 100%;"></div>
+            <div class="lines yellow" id="" style="width: 100%; height: 100%;"></div>
+            <div class="lines blue" id="" style="width: 100%; height: 100%;"></div>
+            <div class="lines misc" id="" style="width: 100%; height: 100%;"></div>
 
-        <nav class="navbar navbar-expand-lg bg-white">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Jack Lowry</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse position-absolute top-50 start-50 translate-middle"
-                    id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" id="home" href="./index.html">Home</a>
-                        <a class="nav-link" id="about" href="./pages/about.html">About</a>
-                        <a class="nav-link" id="projects" href="./pages/projects.html">Projects</a>
-                        <a class="nav-link" id="contact" href="./pages/contact.html">Contact</a>
+            <nav class="navbar navbar-expand-lg bg-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">Jack Lowry</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse position-absolute top-50 start-50 translate-middle"
+                        id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" id="home" href="./index.html">Home</a>
+                            <a class="nav-link" id="about" href="./pages/about.html">About</a>
+                            <a class="nav-link" id="projects" href="./pages/projects.html">Projects</a>
+                            <a class="nav-link" id="contact" href="./pages/contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="main container">
+                <div class="row">
+                    <div id="tilecol" class="col d-flex justify-content-center">
+                        <img id="tiles" src="./resources/tiles.png" alt="Stone Tiles">
+                    </div>
+                    <div id="textcol" class="col">
+                        <div id="namerow" class="row d-flex justify-content-center">
+                            <h1 id="name">Hello, I'm Jack</h1>
+                        </div>
+                        <div id="shortrow" class="row d-flex justify-content-center">
+                            <p id="short">I'm a student and software engineer based in Toronto, Ontario. Most of my work
+                                revolves
+                                around
+                                Full-Stack Web Development and
+                                Blockchain Smart-Contracts. I also do graphic and audio design.</p>
+                            <p>Welcome to my website.</p>
+                        </div>
+                        <div id="buttonrow" class="col d-flex justify-content-center">
+                            <button id="about" type="button" class="btn">About</button>
+                            <button id="projects" type="button" class="btn">Projects</button>
+                            <button id="contact" type="button" class="btn">Contact</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </nav>
 
-        <div class="main container">
-            <div class="row">
-                <div id="tilecol" class="col d-flex justify-content-center">
-                    <img id="tiles" src="./resources/tiles.png" alt="Stone Tiles">
-                </div>
-                <div id="textcol" class="col">
-                    <div id="namerow" class="row d-flex justify-content-center">
-                        <h1 id="name">Hello, I'm Jack</h1>
-                    </div>
-                    <div id="shortrow" class="row d-flex justify-content-center">
-                        <p id="short">I'm a student and software engineer based in Toronto, Ontario. Most of my work
-                            revolves
-                            around
-                            Full-Stack Web Development and
-                            Blockchain Smart-Contracts. I also do graphic and audio design.</p>
-                        <p>Welcome to my website.</p>
-                    </div>
-                    <div id="buttonrow" class="col d-flex justify-content-center">
-                        <button id="about" type="button" class="btn">About</button>
-                        <button id="projects" type="button" class="btn">Projects</button>
-                        <button id="contact" type="button" class="btn">Contact</button>
-                    </div>
-
-                </div>
-            </div>
         </div>
     </div>
 
@@ -89,7 +92,7 @@
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
             <img id="leaf" src="./resources/leaf.png">
-            <span id="c" class="mb-3 mb-md-0 text-muted">© Jack Lowry 2022</span>
+            <p id="c" class="mb-3 mb-md-0 text-muted">© Jack Lowry 2022</p>
         </div>
 
         <ul class="mediabtns nav col-md-4 justify-content-end list-unstyled d-flex">

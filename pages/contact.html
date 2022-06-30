@@ -14,7 +14,7 @@
 
     <!-- Custom CSS files -->
     <link href="../style/custom.css" rel="stylesheet">
-    <link href="../style/index.css" rel="stylesheet">
+    <link href="../style/contact.css" rel="stylesheet">
     <!-- JParticles from  https://jparticles.js.org/-->
     <script src="https://unpkg.com/jparticles/browser/jparticles.base.js"></script>
     <script src="https://unpkg.com/jparticles/browser/particle.js"></script>
@@ -57,30 +57,27 @@
             </div>
         </nav>
 
+        <div class="page-title">
+            <h2>Contact</h2>
+        </div>
+
         <div class="main container">
             <div class="row">
-                <div id="tilecol" class="col d-flex justify-content-center">
-                    <img id="tiles" src="../resources/tiles.png" alt="Stone Tiles">
-                </div>
-                <div id="textcol" class="col">
-                    <div id="namerow" class="row d-flex justify-content-center">
-                        <h1 id="name">Hello, I'm Jack</h1>
-                    </div>
-                    <div id="shortrow" class="row d-flex justify-content-center">
-                        <p id="short">I'm a student and software engineer based in Toronto, Ontario. Most of my work
-                            revolves
-                            around
-                            Full-Stack Web Development and
-                            Blockchain Smart-Contracts. I also do graphic and audio design.</p>
-                        <p>Welcome to my website.</p>
-                    </div>
-                    <div id="buttonrow" class="col d-flex justify-content-center">
-                        <button id="about" type="button" class="btn">About</button>
-                        <button id="projects" type="button" class="btn">Projects</button>
-                        <button id="contact" type="button" class="btn">Contact</button>
-                    </div>
+                <form action=”mailto:jacklowry1337@gmail.com” method=”POST” enctype=”multipart/form-data”
+                    name=”EmailForm”>
 
-                </div>
+
+                    Name:<br>
+
+
+                    <input type=”text” size=”19″ name=”ContactName”><br><br>
+
+
+                    Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+
+
+</textarea><br><br> <input type=”submit” value=”Submit”>
+                </form>
             </div>
         </div>
     </div>

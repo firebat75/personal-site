@@ -14,7 +14,7 @@
 
     <!-- Custom CSS files -->
     <link href="../style/custom.css" rel="stylesheet">
-    <link href="../style/index.css" rel="stylesheet">
+    <link href="../style/about.css" rel="stylesheet">
     <!-- JParticles from  https://jparticles.js.org/-->
     <script src="https://unpkg.com/jparticles/browser/jparticles.base.js"></script>
     <script src="https://unpkg.com/jparticles/browser/particle.js"></script>
@@ -57,30 +57,41 @@
             </div>
         </nav>
 
-        <div class="main container">
-            <div class="row">
-                <div id="tilecol" class="col d-flex justify-content-center">
-                    <img id="tiles" src="../resources/tiles.png" alt="Stone Tiles">
-                </div>
-                <div id="textcol" class="col">
-                    <div id="namerow" class="row d-flex justify-content-center">
-                        <h1 id="name">Hello, I'm Jack</h1>
-                    </div>
-                    <div id="shortrow" class="row d-flex justify-content-center">
-                        <p id="short">I'm a student and software engineer based in Toronto, Ontario. Most of my work
-                            revolves
-                            around
-                            Full-Stack Web Development and
-                            Blockchain Smart-Contracts. I also do graphic and audio design.</p>
-                        <p>Welcome to my website.</p>
-                    </div>
-                    <div id="buttonrow" class="col d-flex justify-content-center">
-                        <button id="about" type="button" class="btn">About</button>
-                        <button id="projects" type="button" class="btn">Projects</button>
-                        <button id="contact" type="button" class="btn">Contact</button>
-                    </div>
+        <div class="page-title">
+            <h2>About</h2>
+        </div>
 
+        <div class="main container">
+            <div class="row bio">
+                <div class="col-xl text-center">
+                    <img id="profilepic" src="../resources/profile.png">
                 </div>
+                <div class="col biotext text-center">
+                    <h4>Bio</h4>
+                    <p>I'm currently a student at the University of Toronto, studying mainly Computer Science and
+                        Information Technology in a dual degree with Sheridan Arts College, but I'm also minoring in
+                        History and Philosophy.</p>
+                    <p>In my free time I usually either read: mostly sci-fi and science related articles, or watch
+                        youtube videos about history. I also like to play
+                        intruments and do various music related things if I have time, maybe one day I'll actually
+                        publish
+                        something, who knows. Likely no.</p>
+                    <p>Software and computation in general has always interested me so I decided to persue it as a
+                        career path. Most of the work I do revolves around web development and web3 related things like
+                        webapps and smart contracts, although I have done some mobile app programming with Swift, a few
+                        Arduino
+                        Projects,
+                        some game modding, etc...</p>
+                    <p><b>Currently I'm looking for an internship or co-op position, so if
+                            you're a potential employer feel free to head over to my <a href="./contact.html">contact
+                                form</a>, or send me an email or message through one of the links below.</b></p>
+
+                    <p>Download my <a href="../resources/resume.pdf">resume in PDF form</a>, or read the web version
+                        below.</p>
+                </div>
+            </div>
+            <div class="row rock justify-content-md-center">
+                <img id="sphere" src="../resources/sphere.png">
             </div>
         </div>
     </div>

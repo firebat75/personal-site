@@ -1,0 +1,65 @@
+.bio {
+    position: relative;
+    border: 0.1px solid black;
+    background-color: rgb(245, 244, 244);
+    padding: 40px;
+}
+
+#profilepic {
+    border-radius: 50%;
+    width: 80%;
+    animation: float 5s ease-in-out infinite;
+    margin: 20px;
+}
+
+@keyframes float {
+    0% {
+        filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.8));
+        transform: translatey(0px);
+    }
+
+    50% {
+        filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.8));
+        transform: translatey(-15px);
+    }
+
+    100% {
+        filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.8));
+        transform: translatey(0px);
+    }
+}
+
+@keyframes floatrock {
+    0% {
+        filter: drop-shadow(-7px 2px 5px rgba(0, 0, 0, 0.8));
+        transform: translatey(0px);
+    }
+
+    50% {
+        filter: drop-shadow(-12px 20px 12px rgba(0, 0, 0, 0.8));
+        transform: translatey(-20px);
+    }
+
+    100% {
+        filter: drop-shadow(-7px 2px 5px rgba(0, 0, 0, 0.8));
+        transform: translatey(0px);
+    }
+}
+
+
+.rock {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 0.1px solid black;
+    background-color: rgb(245, 244, 244);
+    padding: 40px;
+    width: fit-content;
+}
+
+
+#sphere {
+    width: 14rem;
+    animation: floatrock 3s ease-in-out infinite;
+}

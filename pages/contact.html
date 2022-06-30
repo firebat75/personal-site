@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Personal Site, Portfolio, Developer, Jack Lowry">
+    <meta name="author" content="Jack Lowry">
+    <meta name="Description" content="Personal site of Jack Lowry">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Custom CSS files -->
+    <link href="../style/custom.css" rel="stylesheet">
+    <link href="../style/index.css" rel="stylesheet">
+    <!-- JParticles from  https://jparticles.js.org/-->
+    <script src="https://unpkg.com/jparticles/browser/jparticles.base.js"></script>
+    <script src="https://unpkg.com/jparticles/browser/particle.js"></script>
+    <script src="https://unpkg.com/jparticles/browser/line.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <title>About | Jack Lowry</title>
+    <link rel="icon" type="image/x-icon" href="../resources/tiles.png">
+</head>
+
+<body>
+    <div id="page-container">
+        <div class="lines black" id="" style="width: 100%; height: 100%;"></div>
+        <div class="lines red" id="" style="width: 100%; height: 100%;"></div>
+        <div class="lines yellow" id="" style="width: 100%; height: 100%;"></div>
+        <div class="lines blue" id="" style="width: 100%; height: 100%;"></div>
+        <div class="lines misc" id="" style="width: 100%; height: 100%;"></div>
+
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Jack Lowry</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse position-absolute top-50 start-50 translate-middle"
+                    id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" id="home" href="../index.html">Home</a>
+                        <a class="nav-link" id="about" href="./about.html">About</a>
+                        <a class="nav-link" id="projects" href="./projects.html">Projects</a>
+                        <a class="nav-link" id="contact" href="./contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main container">
+            <div class="row">
+                <div id="tilecol" class="col d-flex justify-content-center">
+                    <img id="tiles" src="../resources/tiles.png" alt="Stone Tiles">
+                </div>
+                <div id="textcol" class="col">
+                    <div id="namerow" class="row d-flex justify-content-center">
+                        <h1 id="name">Hello, I'm Jack</h1>
+                    </div>
+                    <div id="shortrow" class="row d-flex justify-content-center">
+                        <p id="short">I'm a student and software engineer based in Toronto, Ontario. Most of my work
+                            revolves
+                            around
+                            Full-Stack Web Development and
+                            Blockchain Smart-Contracts. I also do graphic and audio design.</p>
+                        <p>Welcome to my website.</p>
+                    </div>
+                    <div id="buttonrow" class="col d-flex justify-content-center">
+                        <button id="about" type="button" class="btn">About</button>
+                        <button id="projects" type="button" class="btn">Projects</button>
+                        <button id="contact" type="button" class="btn">Contact</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <img id="leaf" src="../resources/leaf.png">
+            <span id="c" class="mb-3 mb-md-0 text-muted">© Jack Lowry 2022</span>
+        </div>
+
+        <ul class="mediabtns nav col-md-4 justify-content-end list-unstyled d-flex">
+            <!-- icons from https://www.flaticon.com/authors/riajulislam -->
+            <li class="ms-3"><a class="text-muted" href="https://github.com/firebat75"><img class="mediabtn"
+                        src="../resources/github.png"></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/jacklowry0/"><img class="mediabtn"
+                        src="../resources/linkedin.png"></a>
+            </li>
+            <li class="ms-3"><a class="text-muted" href="https://twitter.com/_JackLowry"><img class="mediabtn"
+                        src="../resources/twitter.png"></a>
+            </li>
+        </ul>
+    </footer>
+
+    </div>
+
+
+    <!-- BACKGROUND LINES -->
+    <script src="../scripts/particles.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

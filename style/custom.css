@@ -116,3 +116,9 @@ footer {
         margin-bottom: 0rem !important;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    #page-container {
+        min-height: 800px;
+    }
+}

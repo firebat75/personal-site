@@ -96,7 +96,6 @@
 
 #tech-stack {
     margin-top: 60px;
-    margin-bottom: 60px;
     position: relative;
     border: 0.1px solid black;
     background-color: rgb(245, 244, 244);
@@ -125,4 +124,10 @@
     max-height: 80px;
     max-width: 80px;
     margin: 3px;
+}
+
+.dummy {
+    position: relative;
+    color: white;
+    margin-top: 60px;
 }

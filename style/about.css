@@ -1,8 +1,33 @@
+#page-container {
+    position: relative;
+    min-height: max-content;
+}
+
 .bio {
     position: relative;
     border: 0.1px solid black;
     background-color: rgb(245, 244, 244);
     padding: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+    .s-logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-height: 200px !important;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .school h5 {
+        text-align: center;
+    }
+
+    #page-container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 #profilepic {
@@ -28,40 +53,6 @@
     }
 }
 
-@keyframes floatrock {
-    0% {
-        filter: drop-shadow(-7px 2px 5px rgba(0, 0, 0, 0.8));
-        transform: translatey(0px);
-    }
-
-    50% {
-        filter: drop-shadow(-12px 20px 12px rgba(0, 0, 0, 0.8));
-        transform: translatey(-20px);
-    }
-
-    100% {
-        filter: drop-shadow(-7px 2px 5px rgba(0, 0, 0, 0.8));
-        transform: translatey(0px);
-    }
-}
-
-
-.rock {
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    border: 0.1px solid black;
-    background-color: rgb(245, 244, 244);
-    padding: 40px;
-    width: fit-content;
-}
-
-
-#sphere {
-    width: 14rem;
-    animation: floatrock 3s ease-in-out infinite;
-}
 
 #resume {
     margin-top: 60px;
@@ -112,6 +103,7 @@
 #tech-stack p {
     text-align: center;
     margin: 10px;
+    margin-bottom: 0px;
     margin-top: 20px;
 }
 

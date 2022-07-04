@@ -62,15 +62,15 @@
 }
 
 #buttonrow #about {
-    border: 0.1px solid red;
+    border: 1px solid red;
 }
 
 #buttonrow #projects {
-    border: 0.1px solid yellow;
+    border: 1px solid rgb(255, 230, 0);
 }
 
 #buttonrow #contact {
-    border: 0.1px solid blue;
+    border: 1px solid blue;
 }
 
 @media only screen and (max-width: 600px) {

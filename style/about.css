@@ -3,6 +3,10 @@
     min-height: max-content;
 }
 
+#about {
+    border-bottom: 1px solid red;
+}
+
 .bio {
     position: relative;
     border: 0.1px solid black;
@@ -53,6 +57,9 @@
     }
 }
 
+.mediabtns {
+    margin-bottom: 10px;
+}
 
 #resume {
     margin-top: 60px;

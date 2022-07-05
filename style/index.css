@@ -7,6 +7,10 @@
     background-color: rgb(245, 244, 244);
 }
 
+#home {
+    border-bottom: 1px solid red;
+}
+
 #tiles {
     margin: 20px;
     margin-left: auto;
@@ -61,17 +65,18 @@
     text-decoration: underline;
 }
 
-#buttonrow #about {
+#buttonrow #home {
     border: 1px solid red;
 }
 
-#buttonrow #projects {
+#buttonrow #about {
     border: 1px solid rgb(255, 230, 0);
 }
 
-#buttonrow #contact {
+#buttonrow #projects {
     border: 1px solid blue;
 }
+
 
 @media only screen and (max-width: 600px) {
     .main {

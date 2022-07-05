@@ -39,20 +39,17 @@ body {
 }
 
 #home:hover {
-    border-bottom: 1px solid gray;
-}
-
-#about:hover {
     border-bottom: 1px solid red;
 }
 
-#projects:hover {
+#about:hover {
     border-bottom: 1px solid rgb(255, 230, 0);
 }
 
-#contact:hover {
+#projects:hover {
     border-bottom: 1px solid blue;
 }
+
 
 .page-title {
     border: 0.1px solid black;
